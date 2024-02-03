@@ -3,12 +3,14 @@ import { NavLink } from "react-router-dom";
 import ProfileButton from "./ProfileButton";
 import "./Navigation.css";
 
+import logo from './kims_logo.png';
+
 function Navigation() {
   return (
     <ul className="nav-container">
       <li className="logo-container">
         <NavLink to="/">
-          <img src={require("./Kim's_logo.png")} />
+          <img src={logo} />
         </NavLink>
       </li>
 
