@@ -14,18 +14,18 @@ function Navigation() {
       </li>
       <ul className='tab-container'>
         <li className='tab'>
-          <NavLink>
-            About Us
+          <NavLink className='link'>
+            ABOUT US
           </NavLink>
         </li>
         <li className='tab'>
-          <NavLink>
-            Products
+          <NavLink className='link'>
+            PRODUCTS
           </NavLink>
         </li>
         <li className='tab'>
-          <NavLink>
-            Contact Us
+          <NavLink className='link'>
+            CONTACT US
           </NavLink>
         </li>
       </ul>

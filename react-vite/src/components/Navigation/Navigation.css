@@ -3,6 +3,7 @@
   flex-direction: horizontal;
   justify-content: space-between;
   list-style-type: none;
+  padding-left: 10px;
 }
 
 .logo-container {
@@ -20,7 +21,22 @@
 }
 
 .tab {
-  margin-right: 10px;
+  margin-right: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: grey;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.link:hover {
+  color: #38761d;
+  text-decoration: underline;
+  text-decoration-color: #990000;
+  transition: color 0.5s;
 }
 
 .profile-dropdown {
