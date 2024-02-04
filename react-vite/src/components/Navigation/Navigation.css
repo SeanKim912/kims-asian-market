@@ -12,6 +12,17 @@
   justify-content: center;
 }
 
+.tab-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+}
+
+.tab {
+  margin-right: 10px;
+}
+
 .profile-dropdown {
   position: absolute;
 }
