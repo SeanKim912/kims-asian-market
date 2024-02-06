@@ -14,7 +14,7 @@ function Navigation() {
       </li>
       <ul className='tab-container'>
         <li className='tab'>
-          <NavLink className='link'>
+          <NavLink to='about' className='link'>
             ABOUT US
           </NavLink>
         </li>
@@ -24,7 +24,7 @@ function Navigation() {
           </NavLink>
         </li>
         <li className='tab'>
-          <NavLink className='link'>
+          <NavLink to="contact" className='link'>
             CONTACT US
           </NavLink>
         </li>
