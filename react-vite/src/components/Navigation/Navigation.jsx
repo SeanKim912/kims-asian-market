@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from "react-router-dom";
 import "./Navigation.css";
 
-import logo from './kims_logo.png';
+import logo from '../../../public/images/kims_logo.png';
 
 function Navigation() {
   return (

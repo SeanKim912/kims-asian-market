@@ -1,6 +1,10 @@
 import React from 'react';
 import './ContactUs.css';
 
+import instagram from '/images/instagram.svg';
+import linkedin from '/images/linkedin.svg';
+import tiktok from '/images/tiktok.svg'
+
 function ContactUs() {
     return (
         <div className='contact-block'>
@@ -16,7 +20,11 @@ function ContactUs() {
                 </ul>
                 <ul className='contact-container'>
                     <li>Connect With Us:</li>
-                    <li>(828) 254 7253</li>
+                    <li>
+                        <img src={instagram} className='social-icon' />
+                        <img src={linkedin} className='social-icon' />
+                        <img src={tiktok} className='social-icon' />
+                    </li>
                 </ul>
             </div>
         </div>
