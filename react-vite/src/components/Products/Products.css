@@ -1,0 +1,10 @@
+.products-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.products-category {
+    width: 25vw;
+}

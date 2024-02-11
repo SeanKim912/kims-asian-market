@@ -5,6 +5,7 @@ import MainPage from '../components/MainPage';
 import ContactUs from '../components/ContactUs/ContactUs';
 import AboutUs from '../components/AboutUs';
 import Layout from './Layout';
+import Products from '../components/Products';
 
 export const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ export const router = createBrowserRouter([
       {
         path: "about",
         element: <AboutUs />
+      },
+      {
+        path: "products",
+        element: <Products />
       }
     ],
   },

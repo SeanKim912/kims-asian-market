@@ -1,4 +1,3 @@
-import React from 'react';
 import { NavLink } from "react-router-dom";
 import "./Navigation.css";
 
@@ -19,7 +18,7 @@ function Navigation() {
           </NavLink>
         </li>
         <li className='tab'>
-          <NavLink className='link'>
+          <NavLink to='products' className='link'>
             PRODUCTS
           </NavLink>
         </li>
