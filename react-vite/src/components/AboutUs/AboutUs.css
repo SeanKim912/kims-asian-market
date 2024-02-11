@@ -12,3 +12,13 @@
     padding-left: 30px;
     padding-right: 30px;
 }
+
+.korean-text {
+    color: #990000;
+    font-weight: 700;
+}
+
+.english-text {
+    color: #38761d;
+    font-weight: 700;
+}
