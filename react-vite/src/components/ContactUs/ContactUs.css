@@ -1,0 +1,17 @@
+.contact-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.social-icon {
+    height: 30px;
+    width: 30px;
+}
