@@ -1,22 +1,17 @@
-e1432f
-2ca575
+# Kim's Asian Market
 
+This is the official website of Kim's Asian Market, an Asian grocery store owned and run by the Yang family. For business inquiries please contact Daniel Yang at the number below.
 
-# React/Vite Authenticate Me
+<p>
+  5 Regent Park Blvd <br />
+  Unit 110 <br />
+  Asheville, NC 28806 <br />
+  <br />
+  (828) 254-7235 <br />
+  kims.asiannmore@gmail.com
+</p>
 
-This is the frontend for the Flask/React project. Note that it has no styling
-applied. You can copy the __.css__ files from your Authenticate Me project into
-the corresponding locations in the __react-vite__ folder to give your project a
-unique look.
+## Developed by Sean Kim
+Contact at: seankim076@gmail.com
 
-To run it:
-
-1. `cd` into the __react-vite__ folder.
-2. Run `npm install` to install dependencies.
-3. Launch it with `npm run dev`.
-4. In your browser, navigate to [`localhost:5173`].
-
-Don't forget to run `npm run build` before merging your work to your production
-branch!
-
-[`localhost:5173`]: http://localhost:5173/
+[My Website](https://seankim912.github.io)

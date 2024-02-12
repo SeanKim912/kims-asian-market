@@ -11,7 +11,7 @@ function ContactUs() {
             <div>
                 <ul className='contact-container'>
                     <li>Call Us:</li>
-                    <li>(828) 254-7253</li>
+                    <li>(828) 254-7235</li>
                 </ul>
                 <ul className='contact-container'>
                     <li>Ask a Question:</li>
