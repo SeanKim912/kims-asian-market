@@ -7,8 +7,13 @@
 .contact-container {
     display: flex;
     flex-direction: row;
+    font-family: 'FjallaOne';
     justify-content: space-around;
     list-style-type: none;
+}
+
+.contact-header {
+    font-family: 'FjallaOne';
 }
 
 .social-icon {
