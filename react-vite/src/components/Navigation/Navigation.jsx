@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import "./Navigation.css";
+import "../../fonts/font.css";
 
 import logo from '../../../public/images/kims_logo.png';
 
