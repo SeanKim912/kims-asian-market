@@ -1,17 +1,21 @@
 .about-container {
     display: flex;
     flex-direction: row;
-}
-
-.about-right {
-    width: 50vw;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
 }
 
 .about-left {
     width: 50vw;
+}
+
+.about-right {
+    width: 50vw;
     padding-left: 30px;
     padding-right: 30px;
     font-family: "FjallaOne";
+    font-size: 1.5rem;
 
     animation: fadeIn 3s;
 }

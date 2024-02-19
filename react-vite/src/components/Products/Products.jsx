@@ -13,7 +13,7 @@ function Products() {
             </div>
             <div className="products-category">
                 <h2>Food from all of Asia</h2>
-                <p>Korea doesn't limit itself regionally in pursuit of a good meal, so why should we?
+                <p>Korea doesn&apos;t limit itself regionally in pursuit of a good meal, so why should we?
                     We also carry food and ingredients from China, Japan, and more!
                 </p>
             </div>

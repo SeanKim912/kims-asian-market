@@ -7,7 +7,7 @@ import tiktok from '/images/tiktok.svg'
 function ContactUs() {
     return (
         <div className='contact-block'>
-            <h2 className="contact-header">We're here to help</h2>
+            <h2 className="contact-header">We&apos;re here to help</h2>
             <div>
                 <ul className='contact-container'>
                     <li>Call Us:</li>
