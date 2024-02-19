@@ -2,22 +2,38 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 1.5rem;
+    justify-content: center;
+    height: 80%;
+    font-size: 2rem;
 }
 
 .contact-container {
     display: flex;
     flex-direction: row;
     font-family: 'FjallaOne';
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 50vw;
     list-style-type: none;
 }
 
 .contact-header {
     font-family: 'FjallaOne';
+    color: #990000;
+}
+
+.contact-section {
+    color: #38761d;
 }
 
 .social-icon {
     height: 30px;
     width: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.social-media-list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
 }
