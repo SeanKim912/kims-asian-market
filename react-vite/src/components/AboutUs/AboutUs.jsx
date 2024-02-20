@@ -1,10 +1,13 @@
 import "./AboutUs.css";
+import Map from "../Map";
 import "animate.css";
 
 function AboutUs() {
     return (
         <div className="about-container">
-            <div className="about-left"></div>
+            <div className="about-left">
+                <Map />
+            </div>
             <p className="about-right">
                 <span className="korean-text">
                     안녕하세요
