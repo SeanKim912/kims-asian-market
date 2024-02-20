@@ -1,8 +1,8 @@
 import "./ContactUs.css";
 
-import instagram from '/images/instagram.svg';
-import linkedin from '/images/linkedin.svg';
-import tiktok from '/images/tiktok.svg'
+import instagram from '../../images/instagram.svg';
+import linkedin from '../../images/linkedin.svg';
+import tiktok from '../../images/tiktok.svg'
 
 function ContactUs() {
     return (

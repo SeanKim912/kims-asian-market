@@ -1,5 +1,4 @@
 import { GoogleMap, Marker, useLoadScript } from "@react-google-maps/api";
-import { useMemo } from "react";
 
 function Map() {
     const libraries = ["places"];
