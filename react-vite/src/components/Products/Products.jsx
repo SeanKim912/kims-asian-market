@@ -9,7 +9,7 @@ function Products() {
             <div className="products-category">
                 <img className="product-image" src={kimchi} />
                 <h2>Kimchi</h2>
-                <p>All kimchi made in-house, and sold to you fresh!</p>
+                <p>All kimchi made in-house since 1981, and sold to you fresh!</p>
             </div>
             <div className="products-category">
                 <img className="product-image" src={kbeauty} />
