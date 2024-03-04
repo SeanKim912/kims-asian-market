@@ -33,9 +33,10 @@
 }
 
 .link:hover {
-  color: #38761d;
+  color: #990000;
   text-decoration: underline;
-  text-decoration-color: #990000;
+  text-decoration-color: #38761d;
+  text-decoration-thickness: 3px;
   transition: color 0.5s;
 }
 
