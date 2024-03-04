@@ -1,9 +1,8 @@
 .products-container {
     display: flex;
     flex-direction: row;
-    height: 80%;
+    height: 100%;
     align-items: center;
-    justify-content: space-around;
     font-size: 1.25rem;
 }
 
@@ -12,12 +11,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: start;
-    width: 25vw;
+    height: 100%;
+    width: 33vw;
     font-family: "FjallaOne";
+    color: white;
 }
 
 .product-image {
-    width: 25vw;
-    height: 14vw;
-    border-radius: 3vw;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
 }
