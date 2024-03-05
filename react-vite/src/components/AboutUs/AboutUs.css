@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 95vh;
 }
 
 .gradient-overlay {
@@ -26,6 +26,7 @@
 }
 
 .about-right {
+    max-height: 80%;
     width: 33vw;
     padding-left: 0px;
     padding-right: 5vw;
@@ -33,6 +34,7 @@
     font-size: 1.5rem;
     color: white;
     line-height: 2.0;
+    text-align: center;
 
     animation: fadeIn 3s;
 }

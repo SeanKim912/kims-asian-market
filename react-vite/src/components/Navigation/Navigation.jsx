@@ -9,7 +9,7 @@ function Navigation() {
     <ul className="nav-container">
       <li className="logo-container">
         <NavLink to="/">
-          <img src={logo} />
+          <img src={logo} style={{height: "5vh"}}/>
         </NavLink>
       </li>
       <ul className='tab-container'>

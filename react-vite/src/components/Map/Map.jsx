@@ -24,6 +24,7 @@ function Map() {
     const mapContainerStyle = {
         width: '40vw',
         height: '40vh',
+        borderRadius: '15px'
     };
 
     return(
