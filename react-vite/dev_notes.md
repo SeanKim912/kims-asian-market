@@ -19,4 +19,5 @@ To run it:
 Don't forget to run `npm run build` before merging your work to your production
 branch!
 
+backend connection in vite.config.js, currently commented out
 [`localhost:5173`]: http://localhost:5173/
