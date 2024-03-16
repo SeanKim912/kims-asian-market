@@ -41,7 +41,7 @@
 
 .korean-text {
     color: white;
-    font-weight: 700;
+    font-weight: 600;
     font-family: "NanumSquareRound";
 
     animation: fadeIn 0.5s;
@@ -49,7 +49,7 @@
 
 .english-text {
     color: white;
-    font-weight: 700;
+    font-weight: 400;
     font-family: "FjallaOne";
 
     animation: fadeIn 5s;
