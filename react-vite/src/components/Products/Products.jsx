@@ -1,7 +1,7 @@
 import "./Products.css";
-import kimchi from '../../images/kimchi_closeup.png';
-import kbeauty from '../../images/kbeauty.png';
-import food from '../../images/asian_cuisine.png';
+import kimchi from '../../images/kimchi_closeup_cr.png';
+import kbeauty from '../../images/kbeauty_cr.png';
+import food from '../../images/asian_cuisine_cr.png';
 
 function Products() {
     return (
