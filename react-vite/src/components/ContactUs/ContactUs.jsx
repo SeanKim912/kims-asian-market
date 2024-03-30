@@ -1,14 +1,14 @@
 import "./ContactUs.css";
 import Map from '../Map/Map';
 
-import catset from '../../images/catset.png';
+import aisle from '../../images/aisle.png';
 import instagram from '../../images/instagram.svg';
 import linkedin from '../../images/linkedin.svg';
 import tiktok from '../../images/tiktok.svg'
 
 function ContactUs() {
     return (
-        <div className='contact-block' style={{backgroundImage: `url(${catset})`}}>
+        <div className='contact-block' style={{backgroundImage: `url(${aisle})`}}>
             <div className="gradient-overlay2">
                 <Map />
                 <div className="right-block">
