@@ -1,10 +1,10 @@
 import "./AboutUs.css";
 import "animate.css";
-import teaset from '../../images/teaset.png';
+
 
 function AboutUs() {
     let backgroundStyles = {
-        backgroundImage: `url(${teaset})`,
+        backgroundImage: `url("https://kimsasianbucket.s3.amazonaws.com/teaset.png")`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'

@@ -1,7 +1,4 @@
 import "./Products.css";
-import kimchi from '../../images/kimchi_closeup_cr.png';
-import kbeauty from '../../images/kbeauty_cr.png';
-import food from '../../images/asian_cuisine_cr.png';
 
 function Products() {
     return (
@@ -10,7 +7,7 @@ function Products() {
                 <div
                     className="product-image"
                     style={{
-                        backgroundImage: `url(${kimchi})`,
+                        backgroundImage: `url("https://kimsasianbucket.s3.amazonaws.com/kimchi_closeup_cr.png")`,
                         width: "33vw"
                 }}>
                     <div className="hover-gradient">
@@ -25,7 +22,7 @@ function Products() {
                 <div
                     className="product-image"
                     style={{
-                        backgroundImage: `url(${kbeauty})`,
+                        backgroundImage: `url("https://kimsasianbucket.s3.amazonaws.com/kbeauty_cr.png")`,
                         width: "34vw"
                 }}>
                     <div className="hover-gradient">
@@ -40,7 +37,7 @@ function Products() {
                 <div
                     className="product-image"
                     style={{
-                        backgroundImage: `url(${food})`,
+                        backgroundImage: `url("https://kimsasianbucket.s3.amazonaws.com/asian_cuisine_cr.png")`,
                         width: "33vw"
                 }}>
                     <div className="hover-gradient">
