@@ -2,6 +2,7 @@
     background-size: cover;
     height: 95vh;
     font-size: 2rem;
+    min-width: 1280px;
 }
 
 .gradient-overlay2 {
