@@ -3,7 +3,7 @@ import "./Products.css";
 function Products() {
     return (
         <div className="products-container">
-            <div className="products-category" style={{width: "33vw"}}>
+            <div className="products-category" style={{width: "33vw", minWidth: "426px"}}>
                 <div
                     className="product-image"
                     style={{
@@ -18,7 +18,7 @@ function Products() {
                     </div>
                 </div>
             </div>
-            <div className="products-category" style={{width: "34vw"}}>
+            <div className="products-category" style={{width: "34vw", minWidth: "428px"}}>
                 <div
                     className="product-image"
                     style={{
@@ -33,7 +33,7 @@ function Products() {
                     </div>
                 </div>
             </div>
-            <div className="products-category" style={{width: "33vw"}}>
+            <div className="products-category" style={{width: "33vw", minWidth: "426px"}}>
                 <div
                     className="product-image"
                     style={{

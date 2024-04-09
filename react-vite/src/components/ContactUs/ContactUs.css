@@ -13,6 +13,7 @@
     justify-content: space-around;
     height: 100%;
     width: 100vw;
+    min-width: 1280px;
 }
 
 .right-block {
