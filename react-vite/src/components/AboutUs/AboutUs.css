@@ -30,6 +30,7 @@
 .about-right {
     max-height: 80%;
     width: 33vw;
+    min-width: 600px;
     padding-left: 0px;
     padding-right: 5vw;
     font-family: "FjallaOne";
