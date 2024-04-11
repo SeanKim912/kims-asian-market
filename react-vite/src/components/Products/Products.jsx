@@ -8,7 +8,8 @@ function Products() {
                     className="product-image"
                     style={{
                         backgroundImage: `url("https://kimsasianbucket.s3.amazonaws.com/kimchi_closeup_cr.png")`,
-                        width: "33vw"
+                        width: "33vw",
+                        minWidth: "426px"
                 }}>
                     <div className="hover-gradient">
                         <div className="hover-text">
@@ -23,7 +24,8 @@ function Products() {
                     className="product-image"
                     style={{
                         backgroundImage: `url("https://kimsasianbucket.s3.amazonaws.com/kbeauty_cr.png")`,
-                        width: "34vw"
+                        width: "34vw",
+                        minWidth: "428px"
                 }}>
                     <div className="hover-gradient">
                         <div className="hover-text">
@@ -38,7 +40,8 @@ function Products() {
                     className="product-image"
                     style={{
                         backgroundImage: `url("https://kimsasianbucket.s3.amazonaws.com/asian_cuisine_cr.png")`,
-                        width: "33vw"
+                        width: "33vw",
+                        minWidth: "426px"
                 }}>
                     <div className="hover-gradient">
                         <div className="hover-text">
