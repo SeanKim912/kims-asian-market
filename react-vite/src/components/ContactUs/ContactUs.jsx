@@ -1,6 +1,5 @@
 import "./ContactUs.css";
 import Map from '../Map/Map';
-
 import instagram from '../../images/instagram.svg';
 import linkedin from '../../images/linkedin.svg';
 import tiktok from '../../images/tiktok.svg'
