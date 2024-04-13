@@ -29,6 +29,7 @@
     font-family: 'FjallaOne';
     justify-content: space-between;
     width: 30vw;
+    min-width: 640px;
     list-style-type: none;
 }
 

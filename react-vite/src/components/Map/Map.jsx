@@ -24,7 +24,7 @@ function Map() {
     const mapContainerStyle = {
         width: '40vw',
         height: '40vh',
-        minWidth: '620px',
+        minWidth: '600px',
         borderRadius: '15px'
     };
 
