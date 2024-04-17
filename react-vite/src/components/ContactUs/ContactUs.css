@@ -3,6 +3,7 @@
     height: 95vh;
     font-size: 2rem;
     min-width: 1280px;
+    overflow: auto;
 }
 
 .gradient-overlay2 {
