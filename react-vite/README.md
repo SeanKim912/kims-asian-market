@@ -15,3 +15,5 @@ This is the official website of Kim's Asian Market, an Asian grocery store owned
 Contact at: seankim076@gmail.com
 
 [My Website](https://seankim912.github.io)
+
+To run locally, use npm start or npm run dev in react-vite folder.
