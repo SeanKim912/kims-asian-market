@@ -58,3 +58,36 @@
 
     animation: fadeIn 5s;
 }
+
+@media screen and (max-width: 480px) {
+    .about-container {
+        height: 100vh;
+    }
+
+    .gradient-overlay {
+        height: 100%;
+        min-width: 320px;
+    }
+
+    .about-left {
+        width: 0;
+        max-width: 0;
+    }
+
+    .about-right {
+        width: 100vw;
+        min-width: 320px;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 1.0rem;
+        line-height: 1.5;
+    }
+
+    .korean-text {
+        font-size: 1.0rem;
+    }
+
+    .english-text {
+        font-size: 1.0rem;
+    }
+}

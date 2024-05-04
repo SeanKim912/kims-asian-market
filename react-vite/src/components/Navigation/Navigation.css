@@ -52,6 +52,7 @@
   .nav-container {
     height: 5vh;
     min-height: 32px;
+    max-width: 480px;
   }
 
   .logo-container {
