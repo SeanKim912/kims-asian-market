@@ -47,3 +47,24 @@
 .profile-dropdown {
   position: absolute;
 }
+
+@media screen and (max-width: 480px) {
+  .nav-container {
+    height: 5vh;
+    min-height: 32px;
+  }
+
+  .logo-container {
+    height: 5vh;
+    min-height: 32px;
+  }
+
+  .tab-container {
+    height: 5vh;
+    min-height: 32px;
+  }
+
+  .link {
+    font-size: 12px;
+  }
+}
