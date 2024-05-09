@@ -13,7 +13,6 @@ body {
 @media screen and (max-width: 480px){
     body {
         font-size: 12px;
-        width: 100vw;
         max-width: 480px;
         height: 100vh;
     }
