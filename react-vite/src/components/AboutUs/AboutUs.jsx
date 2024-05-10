@@ -14,7 +14,7 @@ function AboutUs() {
             <div className="gradient-overlay">
                 <div className="about-left" />
                 <p className="about-right">
-                    <h1>
+                    <h1 className="about-header">
                         Welcome to&nbsp;
                         <span style={{color: '#990000'}}>KIM&apos;S</span>&nbsp;
                         <span style={{color: '#38761d'}}>ASIAN MARKET</span>
