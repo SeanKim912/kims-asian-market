@@ -61,3 +61,35 @@
     list-style-type: none;
     color: white;
 }
+
+@media screen and (max-width: 480px) {
+    .contact-block {
+        min-width: 320px;
+        width: 100vw;
+    }
+
+    .gradient-overlay2 {
+        background-image: linear-gradient(to bottom, transparent, black);
+        min-width: 320px;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right-block {
+        min-width: 320px;
+        width: 100vw;
+    }
+
+    .contact-header {
+        color: white;
+        font-size: 40px;
+    }
+
+    .contact-container {
+        min-width: 320px;
+        width: 90vw;
+        font-size: 20px;
+        padding: 0;
+    }
+}
