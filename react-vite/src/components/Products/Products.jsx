@@ -5,11 +5,9 @@ function Products() {
         <div className="products-container">
             <div className="products-category" style={{width: "33vw", minWidth: "426px"}}>
                 <div
-                    className="product-image"
+                    className="product-image-edge"
                     style={{
                         backgroundImage: `url("https://kimsasianbucket.s3.amazonaws.com/kimchi_closeup_cr.png")`,
-                        width: "33vw",
-                        minWidth: "426px"
                 }}>
                     <div className="hover-gradient">
                         <div className="hover-text">
@@ -21,11 +19,9 @@ function Products() {
             </div>
             <div className="products-category" style={{width: "34vw", minWidth: "428px"}}>
                 <div
-                    className="product-image"
+                    className="product-image-center"
                     style={{
                         backgroundImage: `url("https://kimsasianbucket.s3.amazonaws.com/kbeauty_cr.png")`,
-                        width: "34vw",
-                        minWidth: "428px"
                 }}>
                     <div className="hover-gradient">
                         <div className="hover-text">
@@ -37,11 +33,9 @@ function Products() {
             </div>
             <div className="products-category" style={{width: "33vw", minWidth: "426px"}}>
                 <div
-                    className="product-image"
+                    className="product-image-edge"
                     style={{
                         backgroundImage: `url("https://kimsasianbucket.s3.amazonaws.com/asian_cuisine_cr.png")`,
-                        width: "33vw",
-                        minWidth: "426px"
                 }}>
                     <div className="hover-gradient">
                         <div className="hover-text">

@@ -17,13 +17,26 @@
     color: white;
 }
 
-.product-image {
+.product-image-edge {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100%;
     background-size: cover;
     background-position: center center;
+    width: 33vw;
+    min-width: 426px;
+}
+
+.product-image-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    width: 34vw;
+    min-width: 428px;
 }
 
 .hover-gradient {
@@ -47,4 +60,29 @@
     margin-top: 55vh;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .products-container {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        min-width: 320px;
+        height: auto;
+    }
+
+    .products-category {
+        min-width: 320px;
+        width: 100vw;
+    }
+
+    .product-image-edge {
+        min-width: 320px;
+        width: 100vw;
+    }
+
+    .product-image-center {
+        min-width: 320px;
+        width: 100vw;
+    }
 }
