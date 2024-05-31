@@ -1,0 +1,13 @@
+.map-container {
+    width: 40vw;
+    height: 40vh;
+    min-width: 600px;
+}
+
+@media screen and (max-width: 480px) {
+    .map-container {
+        max-width: 480px;
+        min-width: 320px;
+        width: 95vw;
+    }
+}

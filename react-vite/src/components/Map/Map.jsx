@@ -1,4 +1,5 @@
 import { GoogleMap, Marker, useLoadScript } from "../../../node_modules/@react-google-maps/api";
+import './Map.css';
 
 function Map() {
     const libraries = ["places"];
@@ -22,21 +23,22 @@ function Map() {
     }
 
     const mapContainerStyle = {
-        width: '40vw',
-        height: '40vh',
-        minWidth: '600px',
+        width: '100%',
+        height: '100%',
         borderRadius: '15px'
     };
 
     return(
         <>
-            <GoogleMap
-                mapContainerStyle={mapContainerStyle}
-                zoom={19}
-                center={center}
-            >
-                <Marker position={center} />
-            </GoogleMap>
+            <div className="map-container">
+                <GoogleMap
+                    mapContainerStyle={mapContainerStyle}
+                    zoom={19}
+                    center={center}
+                >
+                    <Marker position={center} />
+                </GoogleMap>
+            </div>
         </>
     );
 }
