@@ -59,6 +59,14 @@
     animation: fadeIn 5s;
 }
 
+.name-kim {
+    color: #990000;
+}
+
+.name-asian-market {
+    color: #38761d;
+}
+
 @media screen and (max-width: 480px) {
     .about-container {
         height: 100%;
@@ -94,13 +102,14 @@
     .about-header {
         margin-top: 0px;
         font-size: 36px;
+        color: white;
     }
 
-    .korean-text {
-        font-size: 1.0rem;
+    .name-kim {
+        color: white;
     }
 
-    .english-text {
-        font-size: 1.0rem;
+    .name-asian-market {
+        color: white;
     }
 }

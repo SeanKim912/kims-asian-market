@@ -16,8 +16,8 @@ function AboutUs() {
                 <p className="about-right">
                     <h1 className="about-header">
                         Welcome to&nbsp;
-                        <span style={{color: '#990000'}}>KIM&apos;S</span>&nbsp;
-                        <span style={{color: '#38761d'}}>ASIAN MARKET</span>
+                        <span className="name-kim">KIM&apos;S</span>&nbsp;
+                        <span className="name-asian-market">ASIAN MARKET</span>
                     </h1>
                     <span className="korean-text">안녕하세요</span>&nbsp;
                     <span className="english-text">(Hello)</span>.&nbsp;
